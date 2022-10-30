@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,8 +21,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/home.php">Home</a>
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/my booking.php">Booking</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_home.php">Home</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_my booking.php">Booking</a>
       </div>
     </div>
   </div>

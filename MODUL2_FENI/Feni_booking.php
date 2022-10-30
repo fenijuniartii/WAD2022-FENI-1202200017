@@ -21,8 +21,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/home.php">Home</a>
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/booking.php">Booking</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_home.php">Home</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_booking.php">Booking</a>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@
 </div>
 
 <div class="container">
-    <form action="my booking.php" method="GET">
+    <form action="Feni_my booking.php" method="GET">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" value="FENI JUNIARTI_1202200017" readonly>

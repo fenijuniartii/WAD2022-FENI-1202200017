@@ -21,8 +21,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/home.php">Home</a>
-        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/booking.php">Booking</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_home.php">Home</a>
+        <a class="nav-link" href="/Phpdasar/MODUL2_FENI/Feni_booking.php">Booking</a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@
         <li class="list-group-item"><font color="blue">Matic</li></font>
       </ul>
       <center>
-      <form action="booking.php" method="POST">
+      <form action="Feni_booking.php" method="POST">
         <div class="d-flex justify-content-center">
           <button type="submit" href="index2.php" class="btn btn-primary " value="Toyota Innova" nama="BookNow">Book Now</a>
         </div>
