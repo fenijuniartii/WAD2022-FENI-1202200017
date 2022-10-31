@@ -85,7 +85,7 @@
         </div>
         <div class="mb-3">
             <div class="d-grid gap-1">
-            <input class="btn btn-success" type="submit" name="Book" value="Book">  
+            <input class="btn btn-success" type=" " name="Book" value="Book">  
         </div>
     </div>
 </div>
