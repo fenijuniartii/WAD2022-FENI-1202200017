@@ -62,9 +62,9 @@
                     <th scope="row">1</th>
                     <td><?php echo Rand(10000,50000) ?></td>
                     <td><?php echo $Name ?></td>
-                    <td><?php echo $Check ?></td>
+                    <td><?php echo $Check_In ?></td>
                     <td><?php echo $Check_Out ?></td>
-                    <td><?php echo $Car ?></td>
+                    <td><?php echo $Car_Type ?></td>
                     <td><?php echo $Phone_Number ?></td>
                     <td><?php echo $Services ?></td>
                     <td><?php echo $Total_Prices ?></td>
