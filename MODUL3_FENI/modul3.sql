@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Generation Time: Nov 20, 2022 at 06:43 AM
+-- Generation Time: Nov 21, 2022 at 06:45 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -37,15 +37,6 @@ CREATE TABLE `showroom_nama_table` (
   `foto_mobil` varchar(255) NOT NULL,
   `status_pembayaran` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `showroom_nama_table`
---
-
-INSERT INTO `showroom_nama_table` (`id_mobil`, `nama_mobil`, `pemilik_mobil`, `merk_mobil`, `tanggal_beli`, `deskripsi`, `foto_mobil`, `status_pembayaran`) VALUES
-(1, 'CIVIC TURBO', 'Fera', 'Honda', '2022-11-20', 'Jenis Mobil sedan Honda terbaru selanjutnya adalah New Civic RS yang menggunakan mesin 1.500 cc VTEC Turbo dengan transmisi otomatis CVT.', 'civicc.jpg', 'Lunas'),
-(2, 'HONDA ACCORD', 'Feni', 'Honda', '2022-11-19', 'Mobil sedan terbaru milik Honda adalah New Honda Accord. Kendaraan mewah ini memiliki mesin 1.500 cc VTEC Turbo dengan teknologi Earth Dream yang dikombinasikan dengan transmisi otomatis CVT', 'accord.jpg', 'Lunas'),
-(3, 'HONDA HR-V', 'Robby', 'Honda', '2022-11-18', 'All New HR-V kini memiliki penampilan yang lebih mewah dan elegan dengan pilihan warna two-tone. Mobil ini juga dilengkapi dengan mesin 1.5L VTEC Turbo bertenaga 177 PS (khusus tipe RS Turbo).', 'HR-V.jpg', 'Belum Lunas');
 
 --
 -- Indexes for dumped tables

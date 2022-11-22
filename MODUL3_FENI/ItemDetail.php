@@ -18,9 +18,9 @@
         </div>
     </nav>
     <?php
-        $connect=mysqli_connect("localhost", "root", "", "modul3");
+        $connect=mysqli_connect("localhost:3307", "root", "", "modul3");
         $id=$_GET['id'];
-        $query=mysqli_query($connect, "SELECT * FROM showroom_feni_table WHERE id_mobil=$id");
+        $query=mysqli_query($connect, "SELECT * FROM showroom_nama_table WHERE id_mobil=$id");
         $selects=mysqli_fetch_array($query);
     ?>
     <h1><b><?php echo $selects['nama_mobil'] ?></b></h1>
@@ -34,7 +34,7 @@
             </div>
             <div class="mb-3">
                 <label for="Nama_Pemilik"><b>Nama Pemilik</b></label>
-                <input type="text" name="Nama_Pemilik"" class="form-control"value="<?php echo $selects['pemilik_mobil']?>" readonly>
+                <input type="text" name="Nama_Pemilik" class="form-control"value="<?php echo $selects['pemilik_mobil']?>" readonly>
             </div>
             <div class="mb-3">
                 <label for="Merk"><b>Merk</b></label>
